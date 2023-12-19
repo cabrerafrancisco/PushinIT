@@ -8,6 +8,6 @@ describe("Actividad complementaria", () =>{
         cy.get('select#day').select("31"); // valor 31
         cy.get('[id$=nth]').select(10);//sufijo sub-string matches & array 10
         cy.get('#year').select('1998');
-        cy.get('#submitForm').click();
+        cy.contains('Register').click();
     });
 });
