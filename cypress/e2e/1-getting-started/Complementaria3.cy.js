@@ -11,13 +11,5 @@ describe("Complementaria 3", () => {
         cy.wait(1000);
         cy.xpath("//*[@id='sendTask']").click()
         cy.xpath("/html/body/div[1]/div/div[2]/ul/div/div[1]/li/div").click()
-
     });
-
-
-
-
-
-
-
 })
